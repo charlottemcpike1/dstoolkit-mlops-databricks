@@ -1,16 +1,16 @@
 {
-    "Git_Configuration":  [
-                              {
-                                  "git_username":  "ciaran28",
-                                  "git_provider":  "gitHub"
-                              }
-                          ],
-    "Repo_Configuration":  [
-                               {
-                                   "url":  "https://github.com/ciaran28/dstoolkit-mlops-databricks",
-                                   "provider":  "gitHub",
-                                   "path":  "DevelopmentFolder",
-                                   "branch":  "main"
-                               }
-                           ]
+  "Git_Configuration": [
+    {
+      "git_username": "charlottemcpike1",
+      "git_provider": "gitHub"
+    }
+  ],
+  "Repo_Configuration": [
+    {
+      "url": "https://github.com/microsoft/dstoolkit-mlops-databricks",
+      "provider": "gitHub",
+      "path": "DevelopmentFolder",
+      "branch": "main"
+    }
+  ]
 }

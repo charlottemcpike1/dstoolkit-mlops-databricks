@@ -1,23 +1,23 @@
 {
-    "RBAC_Assignments":  [
-                             {
-                                 "roles":  [
-                                               "Key Vault Administrator"
-                                           ],
-                                 "roleBeneficiaryObjID":  "121b9734-5ce8-437d-85dc-7603f778f771",
-                                 "Description":  "Your Object ID",
-                                 "principalType":  "User"
-                             },
-                             {
-                                 "roles":  [
-                                               "Contributor",
-                                               "Key Vault Administrator",
-                                               "Storage Blob Data Contributor",
-                                               "AzureML Data Scientist"
-                                           ],
-                                 "roleBeneficiaryObjID":  "6c74b84d-e229-4660-b51d-b8f7dae16c67",
-                                 "Description":  "Databricks SPN",
-                                 "principalType":  "ServicePrincipal"
-                             }
-                         ]
+  "RBAC_Assignments": [
+    {
+      "roles": [
+        "Key Vault Administrator"
+      ],
+      "roleBeneficiaryObjID": "dd3d17c0-1a9e-46de-b5d3-83ed7f522223",
+      "Description": "Your Object ID",
+      "principalType": "User"
+    },
+    {
+      "roles": [
+        "Contributor",
+        "Key Vault Administrator",
+        "Storage Blob Data Contributor",
+        "AzureML Data Scientist"
+      ],
+      "roleBeneficiaryObjID": "eb284c1c-6ecb-43ac-8d20-055e6b6813e3",
+      "Description": "Databricks SPN",
+      "principalType": "ServicePrincipal"
+    }
+  ]
 }
